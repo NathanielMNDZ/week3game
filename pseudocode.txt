@@ -1,0 +1,34 @@
+Psychic Game:
+
+
+1. win counter = 0 
+2. loss counter = 0
+3. guess counter 9 
+4. letters guessed 
+
+
+
+
+1. computer must generate random letter
+	Math.random * 26 ( +1  ??
+2. user inputs a guess 
+		var guess = ("...")
+3. check to see if guess = random letter
+	if {
+	increase win counter by 1;
+	reset guess counter;
+	comp. choose new letter
+
+
+	}
+	else {
+	display incorrect letter 
+	guess counter -- 
+		if guess counter = 0 {
+		reset guess counter
+		choose new letter
+		loss counter +1
+		}
+
+
+	}
